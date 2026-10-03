@@ -1,0 +1,15 @@
+{
+  "name": "taskpend",
+  "owner": {
+    "name": "Taskpend",
+    "url": "https://www.taskpend.com"
+  },
+  "plugins": [
+    {
+      "name": "taskpend",
+      "source": "./",
+      "description": "Turn conversations into Taskpend tasks, boards, documents and live widgets."
+    }
+  ],
+  "description": "Taskpend's official plugin: capture conversations into boards, keep live metrics widgets on tasks, and turn daily plans into tracked work."
+}
