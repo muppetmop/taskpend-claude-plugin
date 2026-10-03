@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taskpend": {
+      "type": "http",
+      "url": "https://udxtlagxxdaeuajyyalf.supabase.co/functions/v1/mcp"
+    }
+  }
+}
