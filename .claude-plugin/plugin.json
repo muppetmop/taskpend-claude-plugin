@@ -5,6 +5,8 @@
   "description": "Give your AI's work a home. Turn conversations, notes and metrics into Taskpend tasks, boards, documents and live widgets your whole team can open — unlimited members on every plan.",
   "author": { "name": "Taskpend", "url": "https://www.taskpend.com" },
   "homepage": "https://www.taskpend.com",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.taskpend.com/privacy",
   "repository": "https://github.com/muppetmop/taskpend-claude-plugin",
   "license": "MIT",
   "keywords": ["tasks", "kanban", "project-management", "notes", "dashboards"]
