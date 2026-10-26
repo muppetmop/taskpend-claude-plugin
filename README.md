@@ -1,10 +1,11 @@
 # Taskpend for Claude
 
-Give your AI's work a home. This plugin connects Claude to [Taskpend](https://www.taskpend.com) and ships three routines:
+Give your AI's work a home. This plugin connects Claude to [Taskpend](https://www.taskpend.com) and ships these routines:
 
 - **capture-to-board** — meeting notes / brain dumps → a structured board (tasks + status column)
 - **metrics-dashboard** — recurring KPI/pacing numbers → a live widget on a task, refreshed in place
 - **daily-brief-to-board** — your day plan → dated tasks the team can see
+- **claude-session-tracker**: every Claude conversation becomes a Taskpend task (goal, where it stands, decisions, results, and a "pick up from here" brief), so you can follow all your Claude work in one place and continue any of it from Taskpend or from a new chat. In Claude Code it switches on at the start of each session (`hooks/hooks.json`); say "don't track this" to skip a conversation.
 
 Plus `/taskpend:capture` for one-line capture.
 

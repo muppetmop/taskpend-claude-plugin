@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Taskpend session tracking is on: when this conversation turns into real work, follow the taskpend:claude-session-tracker skill (one Taskpend task for this session, kept current, closed out at the end). Skip it for small talk and one-off questions, or if the user asks not to track.'"
+          }
+        ]
+      }
+    ]
+  }
+}
