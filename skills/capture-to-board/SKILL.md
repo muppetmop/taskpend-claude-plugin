@@ -18,6 +18,7 @@ Turn unstructured text (meeting notes, a plan, a voice-note transcript, this con
 
 ## Rules
 
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - Never delete or overwrite existing tasks or documents while capturing; this skill only adds.
 - Respect the user's wording for titles — tidy, don't rewrite meaning.
 - If Taskpend tools are unavailable, say the Taskpend connector needs to be connected (Settings → Connectors) rather than simulating output.

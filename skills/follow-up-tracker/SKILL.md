@@ -18,5 +18,6 @@ One container ("Follow-ups") with columns: **Waiting on** (text — who), **Next
 5. When the user reports a reply, set Status accordingly and ask if there's a new next touch — don't close silently.
 
 ## Rules
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - Never invent commitments or dates. Additive and update-only.
 - Keep titles short enough to scan on a phone.

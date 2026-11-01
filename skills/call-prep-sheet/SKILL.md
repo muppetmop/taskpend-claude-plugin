@@ -17,5 +17,6 @@ One container ("Call prep — <date>") with one task per call, ordered by time, 
 4. Close with the ordered list for the morning: times + accounts + the one-line goal each.
 
 ## Rules
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - No invented history or objections — a prep sheet with a wrong "fact" is worse than an empty one.
 - If the user pastes nothing about an account, the prep page holds the goal they stated and placeholders only.

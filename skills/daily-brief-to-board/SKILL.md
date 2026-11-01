@@ -17,6 +17,7 @@ Turn the day's plan — a brief, a standup, "here's what I need to do today" —
 
 ## Rules
 
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - Additive only — never modify or delete tasks that already exist unless the user asks for a specific update (`update_task`).
 - Don't duplicate: before creating, check the destination with `list_tasks` (`q` filter) for an existing task with the same title; update it instead.
 - No invented commitments: only items the user actually stated.

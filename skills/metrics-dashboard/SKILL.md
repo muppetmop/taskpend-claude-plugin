@@ -17,6 +17,7 @@ Keep a recurring metrics view (pacing, KPIs, weekly numbers) as a live widget on
 
 ## Rules
 
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - Numbers come from the user or this conversation only — never invent or extrapolate values into the dashboard.
 - One dashboard = one widget, updated in place.
 - `write_document` overwrites: always `get_document` first and preserve existing content.

@@ -3,4 +3,4 @@ description: Quick-capture the argument (or the current context) into Taskpend a
 ---
 Capture this into Taskpend as a task: $ARGUMENTS
 
-Use the taskpend MCP tools. If $ARGUMENTS names a destination ("in X"), search for that container first; otherwise create it at the top level. Keep the title short; put details in the description. Confirm with the created task's title.
+Use the taskpend MCP tools. If $ARGUMENTS names a destination ("in X"), search for that container first; otherwise create it at the top level. Keep the title short; put details in the description. Pass the user's words in each call's `request` field. Confirm with the created task's title.
