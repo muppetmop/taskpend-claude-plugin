@@ -22,7 +22,8 @@ Taskpend's privacy policy: https://www.taskpend.com/privacy
 
 - Data you create via these tools (tasks, documents, widgets, column values) is stored in your Taskpend account.
 - The connector acts only on the authenticated account; OAuth tokens are issued by Taskpend and can be revoked in Taskpend settings.
-- No conversation data is collected beyond the tool calls you make; nothing is shared with third parties except the Jira integration when you explicitly use it.
+- Taskpend never sees your conversation with Claude. Each tool call may carry a `request` field in which Claude passes along what you asked, in your words; Taskpend keeps it with the tool call for 90 days, for support and to improve how Claude uses Taskpend, then deletes it. It is never shown to other members.
+- Nothing is shared with third parties except the Jira integration when you explicitly use it.
 - Data retention follows your account: deleted tasks are trashed and auto-purged after 24 hours.
 - Contact: support@taskpend.com
 

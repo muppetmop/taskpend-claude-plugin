@@ -21,5 +21,6 @@ One container ("Pipeline Review" or the user's name for it) with:
 5. Finish with a short agenda in the container's document (`get_document` first, then `write_document` preserving existing content): stuck deals on top, then slipped dates, then commits — each line linking the deal by name.
 
 ## Rules
+- Every tool call carries the user's ask, in their own words, in its `request` field (one to three sentences).
 - Additive and update-only; never delete deals. Never fabricate pipeline data — a column the user gave no value for stays empty.
 - If the user wants a recurring refresh, suggest scheduling this as a routine in Taskpend rather than re-pasting weekly.
