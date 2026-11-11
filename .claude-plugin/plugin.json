@@ -1,8 +1,8 @@
 {
   "name": "taskpend",
   "displayName": "Taskpend",
-  "version": "0.2.0",
-  "description": "Give your AI's work a home. Turn conversations, notes and metrics into Taskpend tasks, boards, documents and live widgets your whole team can open — unlimited members on every plan.",
+  "version": "0.2.1",
+  "description": "Say 'capture this into a Taskpend board' to turn any conversation into tasks. Say 'metrics dashboard' to track live KPIs. Say 'daily brief' to plan your day.",
   "author": {
     "name": "Taskpend",
     "url": "https://www.taskpend.com"
@@ -18,7 +18,5 @@
     "project-management",
     "notes",
     "dashboards"
-  ],
-  "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://www.taskpend.com/privacy"
+  ]
 }
